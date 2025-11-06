@@ -1,7 +1,7 @@
 *** Settings ***
 
 #### Libs ####
-
+Library    XML
 Library    AppiumLibrary
 
 ### All Keywords ###

@@ -5,7 +5,7 @@ Test Tags    e2e_android     suite_login
 
 Test Setup    Abrir Aplicativo
 Test Teardown    Fechar Aplicativo
-Library    XML
+
 
 *** Test Cases ***
 Cenario 001 - Acessar tela de suite_login
@@ -63,7 +63,5 @@ Cenario 007 - Login com credenciais null
     Click Element    ${btn_logar}
     Wait Until Page Contains Element    ${toast_usuario_null}    2s
 
-Cenario 008 - Validar mostrar a senha
 
-Cenario 009 - Validar esconder a senha
 
