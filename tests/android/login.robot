@@ -63,7 +63,7 @@ Cenario 007 - Login com credenciais null
     Click Element    ${btn_logar}
     Wait Until Page Contains Element    ${toast_usuario_null}    2s
 
-Cenario 008 - Validar mostrar a senha
+# Cenario 008 - Validar mostrar a senha
 
-Cenario 009 - Validar esconder a senha
+# Cenario 009 - Validar esconder a senha
 
