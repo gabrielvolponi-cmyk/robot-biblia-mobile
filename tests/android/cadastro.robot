@@ -77,6 +77,70 @@ Cenario 008 - Cadastro com e-mail de confirmacao diferente
     Input Text    ${input_confirm_email_cadastro}    ${email_diferente}
     Element Should Be Disabled    ${btn_continue}
 
+Cenario 009 - Cadastro com nome null
+    Acessar cadastro
+    ${last_name}    FakerLibrary.Last Name
+    Input Text    ${input_last_name}    ${last_name}
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 010 - Cadastro com sobrenome null
+    Acessar cadastro
+    ${first_name}    FakerLibrary.First Name
+    Input Text    ${input_last_name}    ${First_name}
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 011 - Cadastro com 1 step null
+    Acessar cadastro
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 012 - Cadastro com e-mail null
+    Acessar cadastro
+    Finalizar step 1 cadastro
+    ${email}    FakerLibrary.Email
+    Input Text    ${input_confirm_email_cadastro}    ${email}
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 013- Cadastro com confirmaçao de e-mail null
+    Acessar cadastro
+    Finalizar step 1 cadastro
+    ${email}    FakerLibrary.Email
+    Input Text    ${input_email_cadastro}    ${email}
+    Element Should Be Disabled    ${btn_continue}
+Cenario 014 - Cadastro com 2 step null
+    Acessar cadastro
+    Finalizar step 1 cadastro
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 015 - input numeros no campo de nome            ### BUG ###
+    Acessar cadastro
+    Input Text    ${input_name}    1234567890
+    ${last_name}    FakerLibrary.Last Name
+    Input Text    ${input_last_name}    ${last_name}
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 016 - input de caracter especial no campo de nome        ### BUG ###
+    Acessar cadastro
+    Input Text    ${input_name}    !@#$%¨&**
+    ${last_name}    FakerLibrary.Last Name
+    Input Text    ${input_last_name}    ${last_name}
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 017 - input de numeros no campo sobrenome        ### BUG ###
+    Acessar cadastro
+    ${first_name}    FakerLibrary.first Name
+    Input Text    ${input_name}    ${first_name}
+    Input Text    ${input_last_name}    1234567890
+    Element Should Be Disabled    ${btn_continue}
+
+Cenario 018 - input de caracter especial no campo sobrenome        ### BUG ###
+    Acessar cadastro
+    ${first_name}    FakerLibrary.first Name
+    Input Text    ${input_name}    ${first_name}
+    Input Text    ${input_last_name}    !@#$%¨&*
+    Element Should Be Disabled    ${btn_continue}
+
+
+
 
 
 
