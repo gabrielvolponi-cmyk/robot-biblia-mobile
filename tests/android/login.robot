@@ -64,4 +64,3 @@ Cenario 007 - Login com credenciais null
     Wait Until Page Contains Element    ${toast_usuario_null}    2s
 
 
-
