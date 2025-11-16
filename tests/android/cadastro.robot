@@ -1,6 +1,5 @@
 *** Settings ***
 Resource    ../../resources/configs/package.resource
-Resource    ../../resources/keywords/kws_cadastro.robot
 
 Test Tags    e2e_android     suite_cadastro
 
