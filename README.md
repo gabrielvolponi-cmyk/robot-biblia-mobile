@@ -57,12 +57,12 @@ pip install -r requirements.txt
 
 Para executar os testes Android:
 ```bash
-robot -d ./reports/android -i e2e_android
+robot -d ./reports/android -i e2e_android .
 ```
 
 Para executar os testes iOS:
 ```bash
-robot -d ./reports/ios tests/ios -i e2e_ios
+robot -d ./reports/ios tests/ios -i e2e_ios .
 ```
 
 ## Relatórios 📊

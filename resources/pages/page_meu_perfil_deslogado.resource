@@ -20,3 +20,11 @@ ${btn_seguranca}                          //android.widget.TextView[@text="Secur
 ${btn_fale_conosco}                       //android.widget.TextView[@text="Contact us"]
 ${btn_ajuda}                              //android.widget.TextView[@text="Help"]
 ${btn_sair_conta}                         //android.widget.TextView[@text="Sign out"]
+${titulo_marcacoes}                       //android.widget.TextView[@text="Bookmarks"]
+${titulo_anotacoes}                       //android.widget.TextView[@text="Notes"]
+${titulo_destaques}                       //android.widget.TextView[@resource-id="org.universal.bibliafiel_comentada:id/txtToolbarTitle" and contains(@text, "Highlights")]
+${titulo_historico}                       //android.widget.TextView[@text="History"]
+${btn_sair_alert}                         //android.widget.Button[@resource-id="android:id/button1"]
+${titulo_ajuda}                           //android.widget.TextView[@text="Help"]
+
+

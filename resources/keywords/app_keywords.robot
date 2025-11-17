@@ -22,6 +22,7 @@ Abrir Aplicativo
 
 Fechar Aplicativo
     [Documentation]    Fecha o app
+    Capture Page Screenshot
     Close Application
 
 Validar elementos visiveis
