@@ -8,3 +8,4 @@ Resource    page_login.resource
 Resource    page_cadastro.resource
 Resource    page_acessoDeslogado.resource
 Resource    page_meu_perfil_deslogado.resource
+Resource    page_anotacoes.resource
