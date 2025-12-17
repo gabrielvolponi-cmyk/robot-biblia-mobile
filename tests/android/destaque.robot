@@ -5,7 +5,6 @@ Test Tags    e2e_android     suite_destaque
 
 Test Setup    Abrir Aplicativo
 Test Teardown    Fechar Aplicativo
-Library    FakerLibrary    locale=pt-BR
 
 *** Test Cases ***
 
