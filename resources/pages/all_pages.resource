@@ -12,3 +12,4 @@ Resource    page_anotacoes.resource
 Resource    page_destaque.resource
 Resource    page_realces.resource
 Resource    page_sublinhados.resource
+Resource    page_trocarIdioma.resource
