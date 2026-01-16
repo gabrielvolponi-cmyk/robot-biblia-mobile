@@ -78,5 +78,12 @@ Cenario 010- Acessar biblia deslogado
     Acessar deslogado
     Wait Until Element Is Visible    ${primeira_tela_deslogado}
 
+Cenario 011 - Marcar trecho biblia 
+    [Documentation]    Cenario teste para selecionar um trecho do texto para fazer marcações em testes futuros
+    Acessar deslogado
+    Wait Until Element Is Visible    ${primeira_tela_deslogado}
+    Selecionar texto no elemento    ${primeira_tela_deslogado}
+
+
 
 
