@@ -18,6 +18,7 @@ Abrir Aplicativo
     ...    deviceName=${DEVICE_NAME}
     ...    automationName=UiAutomator2
     ...    app=${APP_PATH}
+    ...    autograntpermissions=${True}
     Sleep    3s
 
 Fechar Aplicativo
