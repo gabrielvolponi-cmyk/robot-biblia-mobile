@@ -126,4 +126,36 @@ Cenario 013 - Validar barra de tamanho
     Mover Slider    ${barra_tamanho}
     ${valor_final}    Obter valor do slider    ${barra_tamanho}   
     Should Not Be Equal As Numbers    ${valor_inicial}    ${valor_final}
+    
+Cenario 014 - Validar selecao de tema claro
+    [Documentation]    Valida que o tema do app esta no modo claro
+    Acessar configuracoes
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    Condicional elemento selecionado    ${btn_claro}
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    ${selecionado}    appiumlibrary.Get Element Attribute    ${btn_claro}    checked
+    Should Be Equal    ${selecionado}    true
 
+Cenario 015 - Validar selecao de tema escuro
+    [Documentation]    Valida que o tema do app esta no modo claro
+    Acessar configuracoes
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    Condicional elemento selecionado    ${btn_escuro}
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    ${selecionado}    appiumlibrary.Get Element Attribute    ${btn_escuro}    checked
+    Should Be Equal    ${selecionado}    true
+
+Cenario 016 - Validar selecao de tema device
+    [Documentation]    Valida que o tema do app esta no modo do device
+    Acessar configuracoes
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    Condicional elemento selecionado    ${btn_device}
+    Click Element    ${btn_fonte}
+    Click Element    ${btn_tema}
+    ${selecionado}    appiumlibrary.Get Element Attribute    ${btn_device}    checked
+    Should Be Equal    ${selecionado}    true
