@@ -12,3 +12,4 @@ Resource    ../../resources/keywords/kws_realces.robot
 Resource    ../../resources/keywords/kws_trocarIdioma.robot
 Resource    ../../resources/keywords/kws_sublinhados.robot
 Resource    ../../resources/keywords/kws_configuracoes.robot
+Resource    ../../resources/keywords/kws_assinaturas.robot

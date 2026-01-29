@@ -14,3 +14,4 @@ Resource    page_realces.resource
 Resource    page_sublinhados.resource
 Resource    page_trocarIdioma.resource
 Resource    page_configuracoes.resource
+Resource    page_assinaturas.resource
