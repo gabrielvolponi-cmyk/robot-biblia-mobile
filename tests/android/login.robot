@@ -17,10 +17,10 @@ Cenario 002 - Login com credenciais válidas
     [Documentation]    Validar login com credenciais válidas
     Click Element    ${btn_entrar}
     Element Should Be Visible    ${scroll_view_login}
-    Input Text    ${input_email}   ${email_biblia_robot}
-    Input Text    ${input_senha}    ${senha_biblia_robot}
+    Input Text    ${input_email}   ${user_biblia}
+    Input Text    ${input_senha}    ${senha_user_biblia}
     Click Element    ${btn_logar}
-    Sleep    3s
+    Wait Until Element Is Visible    ${btn_alterar_idioma}
 
 Cenario 003 - Login com email invalido
     [Documentation]    Validar login com usuario inexistente

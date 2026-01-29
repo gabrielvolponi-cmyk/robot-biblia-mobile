@@ -5,7 +5,7 @@ Library    AppiumLibrary
 ${APPIUM_SERVER}     http://localhost:4723
 ${DEVICE_NAME}       emulator-5554
 ${PLATFORM_VERSION}  15.0
-${APP_PATH}     builds/apk/bfc-debug-2.16.3.apk
+${APP_PATH}     builds/apk/bfc-debug-2.16.7 (2).apk
 
 
 *** Keywords ***

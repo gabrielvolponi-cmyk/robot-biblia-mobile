@@ -10,4 +10,7 @@ ${btn_logar}             //android.widget.Button[@resource-id="org.universal.bib
 ${toast_erro_login}      //android.widget.Toast[@text="Incorrect email and/or password. Check the data entered and try again"]
 ${toast_usuario_null}    //android.widget.Toast[@text="Please fill in the Email field correctly."]
 ${toast_senha_null}      //android.widget.Toast[@text="Please fill in the Password field correctly."]
+${dialog_permissao}      //android.widget.TextView[@resource-id="com.android.permissioncontroller:id/permission_message"]
+${btn_permitir}          //android.widget.Button[@resource-id="com.android.permissioncontroller:id/permission_allow_button"]
+${btn_nao_permitir}      //android.widget.Button[@resource-id="com.android.permissioncontroller:id/permission_deny_button"]
 

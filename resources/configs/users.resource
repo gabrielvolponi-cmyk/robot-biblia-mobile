@@ -8,7 +8,7 @@ ${email_biblia_invalido_robot}=    teste@example.com
 ${senha_biblia_robot}=             bfc#2025!@
 ${senha_biblia_invalida_robot}=    1234
 ${user_biblia}=                    biblia.testes@uorak.com
-${senha_user_biblia}               123456789
+${senha_user_biblia}=              123456789
 
 
 
